@@ -1,6 +1,0 @@
-<svg
-  (document:keyup)="onKey($event)"
-  width="100%"
-  height="100%">
-  <g node *ngFor="let node of nodes" [node]="node"></g>
-</svg>
