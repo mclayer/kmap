@@ -13,5 +13,5 @@ function init() {
 }
 
 function addNewNode() {
-	console.log()
+	console.log('addas')
 }
