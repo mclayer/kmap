@@ -4,36 +4,42 @@
     <link href="./styles/base.styl" rel="stylesheet">
   </head>
 <body>
-  <div id="main">
-    <table>
-      <tr>
-        <td>Cats</td>
-        <td>
+  <ul id="main">
+    <li class="active">
+      <span>Cats</span>
+      <ul>
+        <li>
+          <span>subset of</span>
           <ul>
-            <li>subset of
+            <li><span>Animal</span></li>
+            <li><span>Object</span></li>
+            <li><span>Mammal</span></li>
+          </ul>
+        </span></li>
+        <li>
+          <span>hates</span>
+          <ul>
+            <li>
+              <span>Dogs</span>
               <ul>
-                <li>Animal</li>
-                <li>Object</li>
-                <li>Mammal</li>
+                <li>
+                  <span>sometimes</span>
+                </li>
               </ul>
             </li>
-            <li>hates
+            <li>
+              <span>Noise</span>
               <ul>
-                <li>Dogs
-                  <ul><li>
-                    sometimes
-                  </li></ul>
+                <li>
+                  <span>sometimes</span>
                 </li>
-                <li>Noise
-                  <ul><li>
-                    sometimes
-                  </li></ul>
               </ul>
             </li>
           </ul>
-        </td>
-      </tr>
-    </table>
+        </li>
+      </ul>
+
+
   </div>
 </body>
 </html>
