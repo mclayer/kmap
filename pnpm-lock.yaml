@@ -1,5 +1,6 @@
 dependencies:
   pouchdb: 7.2.1
+  uuid: 7.0.2
 devDependencies:
   parcel: 1.12.4
   stylus: 0.54.7
@@ -5503,6 +5504,11 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+  /uuid/7.0.2:
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-vy9V/+pKG+5ZTYKf+VcphF5Oc6EFiu3W8Nv3P3zIh0EqVI80ZxOzuPfe9EHjkFNvf8+xuTHVeei4Drydlx4zjw==
   /v8-compile-cache/2.1.0:
     dev: true
     resolution:
@@ -5669,3 +5675,4 @@ specifiers:
   pouchdb: ^7.2.1
   stylus: ^0.54.7
   typescript: ^3.7.4
+  uuid: ^7.0.2

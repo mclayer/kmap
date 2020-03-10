@@ -9,6 +9,7 @@
   },
   "private": true,
   "dependencies": {
-    "pouchdb": "^7.2.1"
+    "pouchdb": "^7.2.1",
+    "uuid": "^7.0.2"
   }
 }
